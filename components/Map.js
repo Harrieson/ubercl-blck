@@ -17,8 +17,8 @@ const Map = () => {
         const map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/harriemburu/ckulfewgp0e8518piagekr6ma',
-            center:[1.2860, 36.8258],
-            zoom: 3,
+            center:[36.8258, 1.2860],
+            zoom: 8,
 
         });
 

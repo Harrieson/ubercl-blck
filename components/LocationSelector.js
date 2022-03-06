@@ -9,7 +9,9 @@ const LocationSelector = () => {
     const [inFocus, setInFocus]= useState('from')
   return (
     <div className={style.wrapper}>
-        <div className={style.searchHeader}></div>
+        <div className={style.searchHeader}>
+            {inFocus === 'from' ? 'Where can we pick you?' : "Where to?"}
+        </div>
     </div>
   )
 }
