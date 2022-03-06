@@ -1,3 +1,4 @@
+import LocationSelector from "../components/LocationSelector"
 import Map from "../components/Map"
 import Navbar from "../components/Navbar"
 
@@ -19,7 +20,7 @@ export default function Home() {
       </div>
       <div className={style.rideRequestContainer}>
         <div className={style.rideRequest}>
-          {/* location selector */}
+          <LocationSelector />
           {/* confirm ride */}
         </div>
       </div>
